@@ -4,7 +4,7 @@ import requests
 st.title("SFR4 Gentrification Investment Model")
 st.header("Top Zip Codes by Gentrification Score (Crime Trend)")
 
-API_URL = "http://localhost:8000/graphql"
+API_URL = "https://sfr4-backend.onrender.com/graphql"
 
 query = """
 query TopZipcodes($count: Int!) {
